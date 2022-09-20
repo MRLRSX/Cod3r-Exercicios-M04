@@ -15,8 +15,8 @@ CREATE TABLE tb_estados
 
 -- INSERIR NO DADOS NA TB_ESTADOS
 
-INSERT INTO estados
-    (nome, sigla, regiao, populacao)
+INSERT INTO tb_estados
+    (nome_estado, sigla_estado, regiao_estado, populacao_estados)
 VALUES
     ('Alagoas', 'AL', 'Nordeste', 3.38),
     ('Amapá', 'AP', 'Norte', 0.80),
