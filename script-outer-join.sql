@@ -1,0 +1,1 @@
+SELECT * FROM tb_cidades RIGHT JOIN tb_estados ON tb_estados.id_estados = tb_cidades.estado_id
