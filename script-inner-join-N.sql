@@ -1,0 +1,2 @@
+SELECT p.nome_prefeito as 'PREFEITO', c.nome_cidade as 'CIDADE', c.populacao_cidade as 'POPULAÇÃO',  e.nome_estado 'ESTADO', e.populacao_estados as ' POPULAÇÃO ESTADO'
+FROM tb_estados e INNER JOIN tb_cidades c, tb_prefeitos p WHERE e.id_estados = c.estado_id and p.cidade_id = c.id_cidades;
