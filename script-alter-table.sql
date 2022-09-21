@@ -1,0 +1,1 @@
+ALTER TABLE tb_cidades ADD COLUMN populacao_cidade DECIMAL(5,2) NOT NULL AFTER area_cidade;
